@@ -1,2 +1,2 @@
 # practice-demo-code_geeks
-Created with CodeSandbox
+Helping someone with Front End & Practicing concept -> app 
