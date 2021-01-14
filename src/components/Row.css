@@ -1,0 +1,23 @@
+.row {
+  background-color: #cacaca;
+  margin: 5px;
+  padding: 6px 9px;
+  width: 75%;
+  max-width: 800px;
+
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__name {
+  margin: 0px 5px;
+}
