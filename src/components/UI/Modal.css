@@ -1,0 +1,31 @@
+.modal {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  max-height: 60%;
+
+  position: absolute;
+  transform: translateX(-150%);
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  transition: transform 0.4s ease;
+  z-index: 50;
+  padding: 10px;
+  margin-top: 15px;
+
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.active {
+  transform: translateY(0);
+}
+
+.modal__button {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}

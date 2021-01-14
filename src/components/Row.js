@@ -14,7 +14,10 @@ const Row = (props) => {
         </div>
         <div>{props.ad.status}</div>
       </div>
-      <button onClick={() => props.updateStatus(props.ad.id)}>X</button>
+      <div className="buttons">
+        <button onClick={() => props.updateStatus(props.ad.id)}>X</button>
+        <button onClick={props.toggleModal}>O</button>
+      </div>
     </div>
   );
 };

@@ -340,3 +340,9 @@ export const data = [
     dups: ["inewsp-onesti-dequis"]
   }
 ];
+
+export function getData(delay) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, delay);
+  });
+}
